@@ -31,6 +31,7 @@ javaVersion=$(detect_java_version ${BUILD_DIR})
 echo -n "-----> Installing OpenJDK ${javaVersion}... "
 if [ -f $BUILDPACK_CACHE/openjdk1.6.0_27.tar.gz ]; then 
   tar xzvf $BUILDPACK_CACHE/openjdk1.6.0_27.tar.gz
+  jdk_overlay ${BUILD_DIR}
 else  
   install_java ${BUILD_DIR} ${javaVersion}
   jdk_overlay ${BUILD_DIR}
