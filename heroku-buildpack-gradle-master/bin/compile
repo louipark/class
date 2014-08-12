@@ -29,8 +29,12 @@ fi
 # install JDK 
 javaVersion=$(detect_java_version ${BUILD_DIR})
 echo -n "-----> Installing OpenJDK ${javaVersion}... "
-install_java ${BUILD_DIR} ${javaVersion}
-jdk_overlay ${BUILD_DIR}
+if [-f $BUILDPACK_CACHE/openjdk1.6.0_27.tar.gz ]; then 
+  tar xzvf $BUILDPACK_CACHE/openjdk1.6.0_27.tar.gz
+else  
+  install_java ${BUILD_DIR} ${javaVersion}
+  jdk_overlay ${BUILD_DIR}
+fi
 echo "done"
 
 if [ ! -d $CACHE_DIR ] ; then
@@ -51,8 +55,9 @@ else
       tar xzvf $BUILDPACK_CACHE/gradle-1.0-milestone-5.tar.gz 
     else 
       curl --silent --location $GRADLE_URL | tar xz
-      echo " done"
     fi  
+    echo " done"
+  
   fi
   BUILDCMD="gradle -I $OPT_DIR/init.gradle"
 fi
