@@ -1,0 +1,14 @@
+//UIUC CS125 FALL 2012 MP. File: FindScriptLine.java, CS125 Project: Challenge2-Hollywood, Version: 2012-09-14T17:11:15-0500.186579000
+/**
+ * A program to search for specific lines and print their line number.
+ * See FindScriptLine.txt for more details
+ * TODO: add your netid to the line below
+ * @author put-your-netid-here
+ */
+public class FindScriptLine {
+
+	public static void main(String[] args) {
+// TODO: Implement the functionality described in FindScriptLine.txt
+// TODO: Test your code manually and using the automated unit tests in FindScriptLineTest		
+	}
+}

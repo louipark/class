@@ -1,0 +1,148 @@
+//UIUC CS125 FALL 2012 MP. File: RainGame.java, CS125 Project: PairProgramming-FA12, Version: 2012-10-01T09:36:10-0500.391512000
+/**
+ * @author lzhou8,raghnth2,banothu2
+ */
+public class RainGame {
+
+	public static void main(String[] args) {
+		// To get points type your netids above (CORRECTLY-Please double check your partner correctly spells your netid correctly!!)
+		// Your netid is the unique part of your @illinois email address
+		// Do not put your name or your UIN. 
+		// REMEMBER TO COMMIT this file...
+	
+		int x=0, y=0, dx=0, dy=0, score = 0,level=1, lives = 3, a = 0, b=0, ax = 0, bx=0;
+		String text = "";
+		String text2 = "";
+		// long startTime =System.currentTimeMillis();
+		
+		Zen.setFont("Helvetica-50");
+		daGame: while (Zen.isRunning()) {
+            
+			if (text.length() == 0) {
+				
+				x = 0;
+				y = 250;
+				dx = 10;
+				dy = 3;
+				text = "" + (int) (Math.random() * 999);
+				a = 50;
+				b = 300;
+				ax = 5;
+				bx= 5;
+				text2 = "" + (int) (Math.random()*999);
+
+			}
+			
+			
+				
+			Zen.flipBuffer();
+			
+			if (x >= 680 || y>= 530){
+				lives = lives -1;
+				text= "";
+			}
+			if(level==1){
+			Zen.setColor(224, 105, 255);
+			Zen.fillRect(0, 0, Zen.getZenWidth(), Zen.getZenHeight());
+			
+			x += dx;
+			y += dy;
+			}
+			
+			else if (level==2){
+				Zen.setColor(255, 69, 0);
+				Zen.fillRect(0, 0, 110, Zen.getZenHeight());
+				Zen.setColor(255, 165, 10);
+				Zen.fillRect(110, 0, 110, Zen.getZenHeight());
+				Zen.setColor(255, 69, 0);
+				Zen.fillRect(220, 0, 110, Zen.getZenHeight());
+				Zen.setColor(255, 165, 10);
+				Zen.fillRect(330, 0, 110, Zen.getZenHeight());
+				Zen.setColor(255, 69, 0);
+				Zen.fillRect(440, 0, 110, Zen.getZenHeight());
+				Zen.setColor(255, 165, 10);
+				Zen.fillRect(550, 0, 110, Zen.getZenHeight());
+				x += dx;
+				y +=2*dy;	
+			}
+			
+			else if (level==3){
+			Zen.setColor(0, 255, 127);
+			Zen.fillRect(0, 0, Zen.getZenWidth(), 80);
+			Zen.setColor(152, 251, 152);
+			Zen.fillRect(0, 80, Zen.getZenWidth(), 80);
+			Zen.setColor(0, 255, 127);
+			Zen.fillRect(0, 160, Zen.getZenWidth(), 80);
+			Zen.setColor(152, 251, 152);
+			Zen.fillRect(0, 240, Zen.getZenWidth(), 80);
+			Zen.setColor(0, 255, 127);
+			Zen.fillRect(0, 320, Zen.getZenWidth(), 80);
+			Zen.setColor(152, 251, 152);
+			Zen.fillRect(0, 400, Zen.getZenWidth(), 480);
+			x += dx;
+			y += 3*dy;
+			a += ax;
+			b +=bx;
+		}
+				
+			
+        
+			Zen.setColor(104, 34, 139);
+			Zen.drawText(text, x, y);
+			Zen.drawText(text2, a, b);
+			
+			Zen.drawText("Level: "+level,10,50);
+			Zen.drawText("Score: "+score,10,120);
+			Zen.drawText("Lives: "+lives,10,190);
+
+		         
+			
+			 if (score>10)
+				 level=2;
+			 
+			 if (score>15)
+				 level=3;
+			// Find out what keys the user has been pressing.
+			String user = Zen.getEditText();
+			// Reset the keyboard input to an empty string
+			// So next iteration we will only get the most recently pressed keys.
+			Zen.setEditText("");
+			
+			
+			if(lives==0){
+				Zen.flipBuffer();
+				Zen.setColor(255,0,0);
+				Zen.fillRect(0, 0, Zen.getZenWidth(), Zen.getZenHeight());
+				
+				Zen.setColor(255,255,255);
+				Zen.drawText(text, x, y);
+				
+				Zen.drawText("Game over Just John =)", 30, 250);
+				
+				
+				break daGame;
+			}
+			
+			for(int i=0;i < user.length();i++) {
+				char c = user.charAt(i);
+				if(c == text.charAt(0)){
+					text = text.substring(1,text.length());
+					score++;} // all except first character
+			}
+			
+			Zen.sleep(90);// sleep for 90 milliseconds
+
+		}
+		if (lives==0){
+		Zen.flipBuffer();
+		Zen.setColor(255,0,0);
+		Zen.fillRect(0, 0, Zen.getZenWidth(), Zen.getZenHeight());
+		
+		Zen.setColor(255,255,255);
+		Zen.drawText(text, x, y);
+		
+		Zen.drawText("Game over Just John =)", 100, 50);
+		}
+	}
+
+}

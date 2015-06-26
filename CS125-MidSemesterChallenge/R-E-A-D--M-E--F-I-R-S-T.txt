@@ -1,0 +1,110 @@
+Welcome to the grand-challenge.
+
+The purpose of this project is to give you more experience working on existing code
+
+You are expected to work with a partner on these challenges.
+
+Achievement lab points:
+ 1. Perform a code review on either Genetic Algorithm App (also includes Sprite and Genetic Creature).
+ What do you like and dislike about it's structure? What could be improved?
+ Analyze the existing code with your neighbor and be prepared to present to the TAs:
+   Be ready to explain how each method works.
+   
+ 2. Create a new class that demonstrates the combination of two ideas from 
+ two different files in this project.
+
+
+Midterm II Bonus points (due after Midterm III)
+ There are seven project areas described below. 
+ For full points pick THREE projects and then complete the numbered sub points (i.ii.iii) etc. 
+ - You can work with another student in your lab.
+
+1. Conway Automaton App .
+About:
+This app simulates a virtual world. See the wiki link before for more information.
+The Challenge:
+i) Read the code, test it. Perform a code review - what do you like/dislike about the code?
+Which parts are the hardest to understand?
+ii) Debug Me. Some users report that certain mouse positions cause the program to crash.
+Figure out why and fix it.
+iii) Extend it. Extend the program in an interesting way. Make the program be able to
+use an image as a starting point, then read the following article to get more ideas- 
+http://en.wikipedia.org/wiki/Conway%27s_Game_of_Life
+to get some ideas.
+ 
+2. Genetic Algorithm App
+About:
+This app creates 150 creatures. The creatures that are the most distant from the home
+are considered the fittest. We breed from the two most fit creatures to generate new creatures.
+If a creature steps on a wall it is immediately destroyed.
+After a short while, creatures become more adept at not impaling
+themselves on the wall. After a longer time, creatures start to 
+be able to explore with accidently impaling on the wall.
+
+The Challenge:
+i) Read the code, test it. Perform a code review - what do you like/dislike about the code?
+Which parts are the hardest to understand?
+
+ii) Extend it: Update a real-time graph of the maximum fitness and average fitness of the population over time.
+
+
+3. RippleEffectApp
+About:
+This app creates a ripple effect.
+
+The Challenge:
+i) Read the code, test it. Perform a code review - what do you like/dislike about the code?
+Which parts are the hardest to understand?
+ 
+ii) Combine this effect with the Siebel Webcam into a completely different program. Make a more
+interesting and unusual webcam...
+
+4. SlideShowApp
+About:
+An early prototype of a file preview app that can be extended into a complete slideshow.
+The challenge:
+i) Read the code, test it. Perform a code review - what do you like/dislike about the code?
+Which parts are the hardest to understand?
+
+ii) Debug and fix it: Users would like more example pictures. Also please preserve the aspect ratio of each picture. 
+iii) Extend it:Your slideshow should animate (e.g. zoom in) the pictures that are selected.
+
+5. Today's Earthquakes
+About:
+Connects to a remote website. Pulls the latest earthquake reports and displays it.
+The challenge:
+i) Read the code, test it. Perform a code review - what do you like/dislike about the code?
+Which parts are the hardest to understand?
+ii) Extend it: Combine this with another demo or idea to make this interesting.
+
+6A. Connect 4 "Four-in-a-line"
+About:
+No code is provided. Remember playing "Connect4" another simple board games?
+The challenge:
+i) Design the game classes and the tests.
+
+ii) Create a board-based game that is more playable on a virtual board than a real board.
+Examples:
+Four-in-a-line where gravity for each player is at 90 degrees.
+Four-in-a-line where pieces expire after 20 seconds or the board rotates after 30 seconds.
+... where you forfeit your turn if you do not play quickly
+... where you are playing against another player remotely
+(make sure your game is unique)
+
+6B. Animated real-time 2D Game
+(You can only choose 6A or 6B as one of your three choices).
+About:
+No code is provided. 
+Choose a simple animated 2D game that you can implement using Zen.
+i) Design the game use OO principles to create several Java classes.
+
+ii) Create some unit tests to test specific parts of your code.
+iii) Get others to play your game. Based on their experience, improve your game play
+e.g. fix bugs/better game play.
+
+
+
+
+Have fun!
+-Lawrence.
+

@@ -1,0 +1,15 @@
+//UIUC CS125 FALL 2012 MP. File: CipherBreaker.java, CS125 Project: Challenge3-TopSecret, Version: 2012-09-22T01:39:04-0500.114506000
+/**
+ * See CipherBreaker.txt for instructions.
+ * TODO: add your netid to the line below
+ * 
+ * @author lzhou8
+ */
+public class CipherBreaker {
+
+	public static void main(String[] args) {
+		TextIO.putln("Text?");
+		String line = TextIO.getln();
+		TextIO.putln(line);
+
+}	}

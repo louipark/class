@@ -1,0 +1,27 @@
+//UIUC CS125 FALL 2012 MP. File: Winner.java, CS125 Project: Challenge1-DebugMe, Version: 2012-09-07T19:52:51-0500.589872000
+
+/**
+ * This program prints "a","b","c" depending on who has the highest score. The
+ * given code may not be correct. Fix it and additional code to pass the unit
+ * tests.
+ * 
+ * @see Winner-ReadMe.txt for details on how to complete this program.
+ * @author lzhou8
+ * 
+ */
+public class Winner {
+	public static void main(String[] args) {
+		System.out.println("Enter three unique integer scores.");
+
+		int a = TextIO.getlnInt();
+		int b = TextIO.getlnInt();
+		int c = TextIO.getlnInt();
+
+		if (a > b && a > c)
+			System.out.print("1st Place:a\n");
+		if (b > a && b > c)
+			System.out.print("1st Place:b\n");
+		if (c > a && c > b)
+			System.out.print("1st Place:c\n");
+	}
+}
