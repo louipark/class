@@ -1,0 +1,65 @@
+package com.hmkcode.android.sign;
+
+
+import android.os.Bundle;
+import android.preference.PreferenceManager;
+import android.app.Activity;
+import android.content.Intent;
+import android.content.SharedPreferences;
+import android.view.View;
+import android.widget.Button;
+import android.widget.TextView;
+import android.widget.Toast;
+
+public class HomeActivity extends Activity{
+	
+	Button btnReportLost;
+	Button btnReportFound;
+	
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_home);
+        
+        SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(this);
+		String loggedInAs = preferences.getString("User","");
+
+		TextView tv = (TextView)findViewById(R.id.user);
+		tv.setText("Welcome, " + loggedInAs);
+		
+	}
+	
+	public void logout(View view) {
+		Intent intent = new Intent(this, MainActivity.class);
+
+		SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(this);
+		preferences.edit().clear().commit();
+		
+        startActivity(intent);
+	}
+	
+	public void goToLostForm(View view) {
+		Intent intent = new Intent(this, LostFormActivity.class);
+        startActivity(intent);
+	}
+	
+	public void goToFoundForm(View view) {
+		Intent intent = new Intent(this, FoundFormActivity.class);
+        startActivity(intent);
+	}
+	
+	public void goToAccountSettings(View view) {
+		Intent intent = new Intent(this, AccountSettingsActivity.class);
+        startActivity(intent);
+	}
+	
+	public void goToBrowser(View view) {
+		Intent intent = new Intent(this, Browser.class);
+        startActivity(intent);
+	}
+	public void goToViewMatched(View view) {
+		Intent intent = new Intent(this, ViewMatched.class);
+        startActivity(intent);
+	}
+
+}

@@ -1,0 +1,51 @@
+<TableLayout android:id="@+id/BrowserMatch"
+    xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="match_parent" 
+    android:layout_height="match_parent" 
+    android:shrinkColumns="*"  
+    android:stretchColumns="*" 
+    android:background="@drawable/gradient" >
+    
+    <TableRow 
+        android:layout_height="wrap_content" 
+        android:layout_width="fill_parent" 
+        android:background="#465064"    
+        android:gravity="center_horizontal"> 
+        
+        <TextView android:id="@+id/header"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:textSize="25sp" android:text="Matched Item" android:layout_span="3"
+            android:gravity="center"
+            android:layout_marginBottom="10sp"
+            android:layout_marginTop="10sp"
+            android:textColor="#ffffff"/> 
+    </TableRow> 
+     
+
+     
+        <TableRow 
+        android:layout_height="wrap_content" 
+        android:layout_width="fill_parent" 
+        android:background="#60ffffff" 
+        android:gravity="center_horizontal"> 
+
+
+        <TextView 
+            android:text="Contact/Detail"
+            android:layout_weight="1"
+            android:textColor="#465064"   
+            android:gravity="start"/>              
+        <TextView 
+            android:text="Description"
+            android:layout_weight="1"
+            android:textColor="#465064"   
+            android:gravity="start"/>   
+        <TextView 
+            android:text="Time"
+            android:layout_weight="1"
+            android:textColor="#465064"    
+            android:gravity="start"/>                                  
+    </TableRow>  
+    
+     
+</TableLayout>

@@ -1,0 +1,113 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient" 
+    android:gravity="top"
+    android:orientation="vertical"
+    tools:context=".DisplayItemActivity" >
+
+    <TextView
+        android:id="@+id/editText1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:ems="10"
+        android:padding="10dp"
+        android:text="     Item Description"
+        android:background="#465064"           
+        android:textColor="#ffffff"
+        android:textSize="25sp" 
+        android:drawableStart="@drawable/report"
+        android:drawableLeft="@drawable/report"/>
+
+    
+    <TextView
+        android:id="@+id/name"
+        android:layout_marginTop="35dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:padding="11dp"
+        android:textColor="#ffffff"
+        android:text="Name goes here"
+        android:textSize="18sp" />
+       
+    <TextView
+        android:id="@+id/description"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="11dp"
+        android:textColor="#ffffff"
+        android:text="No Description"
+        android:textSize="18sp" />
+    
+    <TextView
+        android:id="@+id/color"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="11dp"
+        android:textColor="#ffffff"
+        android:text="Color goes here"
+        android:textSize="18sp" />
+    
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="11dp"
+        android:textColor="#ffffff"
+        android:text="Time goes here" 
+        android:textSize="18sp"/>
+    
+    <TextView
+        android:id="@+id/finderEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="11dp"
+        android:textColor="#ffffff"
+        android:text="Finder email goes here" 
+        android:textSize="18sp"/>
+    
+    <TextView
+        android:id="@+id/categoryName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="11dp"
+        android:textColor="#ffffff"
+        android:text="Category name goes here"
+        android:textSize="18sp" />
+    
+    <TextView
+        android:id="@+id/subcategoryName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="11dp"
+        android:textColor="#ffffff"
+        android:text="Subcategory name goes here"
+        android:textSize="18sp" />
+    
+    <TextView
+        android:id="@+id/companyName"
+        android:layout_marginBottom="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="11dp"
+        android:textColor="#ffffff"
+        android:text="Company name goes here"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/contact"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+	    android:layout_margin="5dp"        
+		android:padding="10dp"
+        android:background="@drawable/test"
+        style="@style/ButtonText"
+        android:text="Contact Owner!"
+        android:onClick="sendEmail" />
+    
+</LinearLayout>

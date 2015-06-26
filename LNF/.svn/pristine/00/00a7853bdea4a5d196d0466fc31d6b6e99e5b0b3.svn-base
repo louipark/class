@@ -1,0 +1,115 @@
+package com.hmkcode.android.sign;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+import org.apache.http.NameValuePair;
+import org.apache.http.message.BasicNameValuePair;
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+public class Comparator {
+
+	
+	public String[] compare(String location, String name, String color, String time, String reportType, String reporter) {
+		String[] itemID_and_email = new String[2];
+		itemID_and_email[0] = "-1";
+		
+		String[] latAndlng = location.split(",");
+		double lat = Double.parseDouble(latAndlng[0]);
+		double lng = Double.parseDouble(latAndlng[1]);
+		
+		JSONParser jParser = new JSONParser();
+		List<NameValuePair> params = new ArrayList<NameValuePair>();
+		params.add(new BasicNameValuePair("orderBy", "time"));
+		params.add(new BasicNameValuePair("filterBy", "%"));
+		JSONObject JSONReports;
+		
+		if (reportType.equals("found")) {
+			JSONReports = jParser.makeHttpRequest("http://lostandfound.web.engr.illinois.edu/get_list_of_all_lost_reports.php", "GET", params);		
+		}
+		else {
+			JSONReports = jParser.makeHttpRequest("http://lostandfound.web.engr.illinois.edu/get_list_of_all_found_reports.php", "GET", params);		
+			
+		}
+		
+        try {	
+            JSONArray items = JSONReports.getJSONArray("items");
+
+	        for (int i = 0; i < items.length(); i++) {
+	        	boolean locationMatch = false;
+	    		boolean nameMatch = false;
+	    		boolean colorMatch = false;
+	    		boolean timeMatch = false;
+	        	
+	        	JSONObject c = items.getJSONObject(i);
+	            
+	            int rowID = c.getInt("id");
+	            String rowName = c.getString("name");
+	            String rowTime = c.getString("time");
+	            String rowColor = c.getString("color");
+	            String rowLocation = c.getString("location");
+    			String rowEmail = c.getString("email");
+	            
+	    		if (reportType.equals("found") && time.compareTo(rowTime) >= 0) {
+		    		timeMatch = true;  			
+	    		}
+	    		else if (reportType.equals("lost") && time.compareTo(rowTime) < 0) {
+		    		timeMatch = true;   		    	
+	    		}
+
+	    		String[] rowLatAndLng = rowLocation.split(",");
+	    		double lat2 = Double.parseDouble(rowLatAndLng[0]);
+	    		double lng2 = Double.parseDouble(rowLatAndLng[1]);
+	            
+	    		double distance = distance(lat, lng, lat2, lng2, "N");
+	    		
+	    		if (distance < 0.1) {
+	    			locationMatch = true;
+	    		}
+	    		if (name.equals(rowName)) {
+	    			nameMatch = true;
+	    		}
+	    		if (color.equals(rowColor)) {
+	    			colorMatch = true;
+	    		}
+	            
+	    		if (colorMatch && timeMatch && locationMatch && nameMatch) {
+	    			itemID_and_email[1] = rowEmail;
+	    			itemID_and_email[0] = Integer.toString(rowID);
+	    			break;
+	    		}
+	        }  
+		} catch (JSONException e) {
+			e.printStackTrace();
+		}			
+        
+		return itemID_and_email;
+	}
+	
+	
+	
+	private static double distance(double lat1, double lon1, double lat2, double lon2, String unit) {
+		double theta = lon1 - lon2;
+		double dist = Math.sin(deg2rad(lat1)) * Math.sin(deg2rad(lat2)) + Math.cos(deg2rad(lat1)) * Math.cos(deg2rad(lat2)) * Math.cos(deg2rad(theta));
+		dist = Math.acos(dist);
+		dist = rad2deg(dist);
+		dist = dist * 60 * 1.1515;
+		if (unit == "K") {
+			dist = dist * 1.609344;
+		} else if (unit == "N") {
+			dist = dist * 0.8684;
+		}
+		return (dist);
+	}
+
+	private static double deg2rad(double deg) {
+		return (deg * Math.PI / 180.0);
+	}
+		
+	private static double rad2deg(double rad) {
+		return (rad * 180.0 / Math.PI);
+	}
+}

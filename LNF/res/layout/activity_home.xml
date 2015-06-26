@@ -1,0 +1,129 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top"
+    android:orientation="vertical" 
+    android:background="@drawable/images">
+     
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="fill_parent"
+        android:layout_marginBottom="40sp"
+        android:layout_height="wrap_content" >
+        
+        
+    <TextView android:id="@+id/user"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="Not presently logged in"    
+            android:gravity="end"
+            android:textSize="20sp"
+            android:layout_marginRight = "5dp"
+            android:layout_marginEnd = "5dp"
+            android:layout_alignParentEnd = "true"
+            android:layout_alignParentRight="true" />
+
+    <Button android:id="@+id/logout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Logout" 
+    android:padding="10dp"
+    android:textColor="#ffffff"
+	android:layout_margin="5dp"
+	style="@style/btnStyleBeige"
+	android:background="#30ffffff"
+    android:layout_alignParentStart = "true"
+	android:layout_alignParentLeft="true"
+    android:onClick="logout" />
+    </RelativeLayout>
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/linearlayout_bg"
+        android:orientation="vertical"
+        android:padding="20dp" >
+        
+            
+        
+    <Button 
+	       	android:id="@+id/btnReportLost"
+	       	android:layout_width="match_parent"
+	       	android:layout_height="wrap_content"
+	        android:padding="10dp"
+	        android:layout_marginTop = "20dp"
+	        android:layout_marginRight = "5dp"
+            android:layout_marginEnd = "5dp"
+	       	android:text="Report Lost Item"
+	        style="@style/ButtonText"
+	       	android:background="@drawable/bhome"
+	       	android:onClick="goToLostForm"
+	       	android:drawableLeft="@drawable/report"/>
+	       
+    <Button 
+	       	android:id="@+id/btnReportFound"
+	       	android:layout_width="match_parent"
+	       	android:layout_height="wrap_content"
+	        android:padding="10dp"
+	        android:layout_marginTop = "20dp"
+	        android:layout_marginRight = "5dp"
+            android:layout_marginEnd = "5dp"
+	       	android:text="Report Found Item"
+	        style="@style/ButtonText"
+	       	android:background="@drawable/bhome"
+	       	android:onClick="goToFoundForm"
+	       	android:drawableLeft="@drawable/report"/>
+	       
+    <Button 
+	       	android:id="@+id/btnViewAllLost"
+	       	android:layout_width="match_parent"
+	       	android:layout_height="wrap_content"
+	        android:padding="10dp"
+	        android:layout_marginTop = "20dp"
+	        android:layout_marginRight = "5dp"
+            android:layout_marginEnd = "5dp"
+	       	android:text="View All Lost Items"
+	       	android:onClick="goToBrowser"
+	        style="@style/ButtonText"
+	       	android:background="@drawable/bhome"
+	       	android:drawableLeft="@drawable/list"/>
+	       
+    <Button 
+	       	android:id="@+id/btnNotifications"
+	       	android:layout_width="match_parent"
+	       	android:layout_height="wrap_content"
+	        android:padding="10dp"
+	        android:layout_marginTop = "20dp"
+	        android:layout_marginRight = "5dp"
+            android:layout_marginEnd = "5dp"
+	       	android:text="Notifications"
+	        style="@style/ButtonText"
+	       	android:background="@drawable/bhome"
+	       	android:onClick = "goToViewMatched"
+	       	android:drawableLeft="@drawable/notice"/>
+	       
+
+
+    <Button
+        android:id="@+id/btnAcctSettings"
+        style="@style/ButtonText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+	        android:layout_marginTop = "20dp"
+	        android:layout_marginBottom = "10dp"
+	        android:layout_marginRight = "5dp"
+            android:layout_marginEnd = "5dp"
+        android:background="@drawable/bhome"
+        android:padding="10dp"
+        android:text="Account Settings" 
+        android:onClick = "goToAccountSettings"
+		android:drawableLeft="@drawable/setting"/>
+    
+
+
+    </LinearLayout>
+    
+</LinearLayout>
