@@ -1,0 +1,40 @@
+object(stdClass)#12 (26) 
+{ ["rating"]=> object(stdClass)#13 (4) 
+		{ ["max"]=> int(10) ["average"]=> float(9.3) ["stars"]=> string(2) "50" ["min"]=> int(0) }
+  ["reviews_count"]=> int(32) 
+  ["wish_count"]=> int(2317) 
+  ["collect_count"]=> int(1093) 
+  ["douban_site"]=> string(0) "" 
+  ["year"]=> string(4) "2014" 
+  ["images"]=> object(stdClass)#14 (3) 
+		{ ["small"]=> string(74) "http://img5.douban.com/view/movie_poster_cover/ipst/public/p2204068827.jpg" 
+		["large"]=> string(74) "http://img5.douban.com/view/movie_poster_cover/lpst/public/p2204068827.jpg" 
+		["medium"]=> string(74) "http://img5.douban.com/view/movie_poster_cover/spst/public/p2204068827.jpg" } 
+  ["alt"]=> string(41) "http://movie.douban.com/subject/25870057/" 
+  ["id"]=> string(8) "25870057" 
+  ["mobile_url"]=> string(47) "http://movie.douban.com/subject/25870057/mobile" 
+  ["title"]=> string(6) "未生" 
+  ["do_count"]=> int(1454) 
+  ["seasons_count"]=> NULL 
+  ["schedule_url"]=> string(0) "" 
+  ["episodes_count"]=> NULL 
+  ["genres"]=> array(1)
+		{ [0]=> string(6) "剧情" } 
+  ["countries"]=> array(1) 
+		{ [0]=> string(6) "韩国" } 
+  ["casts"]=> array(4) 
+		{ [0]=> object(stdClass)#15 (4) 
+			{ ["avatars"]=> object(stdClass)#16 (3) 
+				{ ["small"]=> string(52) "http://img3.douban.com/img/celebrity/small/39760.jpg" 
+				  ["large"]=> string(52) "http://img3.douban.com/img/celebrity/large/39760.jpg" 
+				  ["medium"]=> string(53) "http://img3.douban.com/img/celebrity/medium/39760.jpg" } 
+			  ["alt"]=> string(42) "http://movie.douban.com/celebrity/1317431/" 
+			  ["id"]=> string(7) "1317431" 
+			  ["name"]=> string(9) "任时完" }
+		  [1]=> object(stdClass)#17 (4) 
+			{ ["avatars"]=> object(stdClass)#18 (3) 
+				{ ["small"]=> string(52) "http://img3.douban.com/img/celebrity/small/33531.jpg" ["large"]=> string(52) "http://img3.douban.com/img/celebrity/large/33531.jpg" ["medium"]=> string(53) "http://img3.douban.com/img/celebrity/medium/33531.jpg" } 
+				  ["alt"]=> string(42) "http://movie.douban.com/celebrity/1315766/" 
+				  ["id"]=> string(7) "1315766" 
+				  ["name"]=> string(9) "姜素拉" } 
+		  [2]=> object(stdClass)#19 (4) { ["avatars"]=> object(stdClass)#20 (3) { ["small"]=> string(60) "http://img3.douban.com/img/celebrity/small/1387798580.84.jpg" ["large"]=> string(60) "http://img3.douban.com/img/celebrity/large/1387798580.84.jpg" ["medium"]=> string(61) "http://img3.douban.com/img/celebrity/medium/1387798580.84.jpg" } ["alt"]=> string(42) "http://movie.douban.com/celebrity/1330012/" ["id"]=> string(7) "1330012" ["name"]=> string(9) "姜河那" } [3]=> object(stdClass)#21 (4) { ["avatars"]=> NULL ["alt"]=> NULL ["id"]=> NULL ["name"]=> string(9) "李圣旻" } } ["current_season"]=> NULL ["original_title"]=> string(6) "미생" ["summary"]=> string(1105) "最高学历只有高中鉴定考试，外语能力全无、特长全无、技能全无的张克莱（任时完 饰），孤独的人生里除了围棋一无所长。少年时因为家庭变故，报考韩国棋院研究生落选后，一直自暴自弃、碌碌无为。在26岁还在打零工的他，凭借关系空降进入综合贸易公司变成营业3组的一名实习生。入职第一天的张克莱连复印机都不会使用，接电话这种小事也要求助同是实习生的安英依（姜素拉 饰）。初入职场的他面对周围外语水平一流、工作能力卓越的同事们，马上被巨大挫折感包围，觉得自己格格不入、无地自容。同时，张克莱空降兵的特殊身份曝光后，马上受到了同期实习生们的质疑和排挤。顶头上司营业3组的吴科长（李圣旻 饰）也对张克莱的身份耿耿于怀。这让张克莱认识到一无所有的自己，唯有比所有人都要努力才能在这里生存下去…… 本片根据尹泰浩作家的同名网络漫画改编，该漫画被称为“工薪阶层教科书”。©豆瓣" ["subtype"]=> string(2) "tv" ["directors"]=> array(1) { [0]=> object(stdClass)#22 (4) { ["avatars"]=> NULL ["alt"]=> NULL ["id"]=> NULL ["name"]=> string(9) "金元锡" } } ["comments_count"]=> int(438) ["ratings_count"]=> int(1848) ["aka"]=> array(2) { [0]=> string(7) "Misaeng" [1]=> string(15) "Incomplete Life" } } 

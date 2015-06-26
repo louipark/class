@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "cs242",
+  "version": "1",
+  "icons": {
+    "128": "pic02.jpg"
+  },
+  "permissions": [],
+  "app": {
+    "background": {
+      "scripts": ["background.js"]
+    }
+  },
+  "minimum_chrome_version": "28"
+}

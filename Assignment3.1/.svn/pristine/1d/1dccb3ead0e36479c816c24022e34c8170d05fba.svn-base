@@ -1,0 +1,1488 @@
+<?xml version="1.0"?>
+<log>
+<logentry
+   revision="7402">
+<author>lzhou8</author>
+<date>2014-10-17T12:53:33.723090Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment2.2/src/tests/__init__.py</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment2.2/input/map.gif</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment2.2/src/control/test.pyc</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment2.2/src/control/GUI.py</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment2.2/.project</path>
+<path
+   kind="dir"
+   action="A">/lzhou8/assignment2.2/src</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment2.2/src/control/Stats.py</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment2.2/src/control/CircleMap.py</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment2.2/src/control/Input.py</path>
+<path
+   kind="dir"
+   action="A">/lzhou8/assignment2.2/input</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment2.2/src/control/Stats.pyc</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment2.2/src/control/__init__.pyc</path>
+<path
+   kind="dir"
+   action="A">/lzhou8/assignment2.2/src/control</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment2.2/src/tests/StatisticsTest.py</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment2.2/src/tests/StatisticsTest.pyc</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment2.2/src/control/test.py</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment2.2/input/cmi_hub.json</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment2.2/input/map_data.json</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment2.2/src/control/vertex.pyc</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment2.2/src/tests/__init__.pyc</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment2.2/src/control/saveFile.txt</path>
+<path
+   kind="dir"
+   action="A">/lzhou8/assignment2.2/src/tests</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment2.2/.pydevproject</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment2.2/src/control/__init__.py</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment2.2/CS AIR GUI MANUAL TEST.docx</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment2.2/src/control/CircleMap.pyc</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment2.2/src/control/edge.py</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment2.2/src/control/EditRoute.pyc</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment2.2/src/control/edge.pyc</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment2.2/src/control/Parse.py</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment2.2/src/control/vertex.py</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment2.2/src/control/Parse.pyc</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment2.2/CS AIR GUI MANUAL TEST.pdf</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="7401">
+<author>lzhou8</author>
+<date>2014-10-17T12:52:41.986783Z</date>
+<paths>
+<path
+   kind="dir"
+   action="A">/lzhou8/assignment2.2</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="6664">
+<author>lzhou8</author>
+<date>2014-10-10T12:55:59.343639Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment2.1/src/control/vertex.pyc</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment2.1/src/tests/__init__.py</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment2.1/src/tests/__init__.pyc</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment2.1/src/control/saveFile.txt</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment2.1/.project</path>
+<path
+   kind="dir"
+   action="A">/lzhou8/assignment2.1/src</path>
+<path
+   kind="dir"
+   action="A">/lzhou8/assignment2.1/src/tests</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment2.1/.pydevproject</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment2.1/src/control/Stats.py</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment2.1/src/control/Input.py</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment2.1/src/control/__init__.py</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment2.1/src/control/CircleMap.py</path>
+<path
+   kind="dir"
+   action="A">/lzhou8/assignment2.1/input</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment2.1/src/control/Stats.pyc</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment2.1/src/control/__init__.pyc</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment2.1/src/control/CircleMap.pyc</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment2.1/src/control/edge.py</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment2.1/src/control/edge.pyc</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment2.1/src/control/EditRoute.pyc</path>
+<path
+   kind="dir"
+   action="A">/lzhou8/assignment2.1/src/control</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment2.1/src/control/Parse.py</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment2.1/src/tests/StatisticsTest.py</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment2.1/src/control/vertex.py</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment2.1/src/control/Parse.pyc</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment2.1/src/tests/StatisticsTest.pyc</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment2.1/input/cmi_hub.json</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment2.1/input/map_data.json</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="6663">
+<author>lzhou8</author>
+<date>2014-10-10T12:55:05.571502Z</date>
+<paths>
+<path
+   kind="dir"
+   action="A">/lzhou8/assignment2.1</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="6022">
+<author>lzhou8</author>
+<date>2014-10-03T12:25:36.758943Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment2.0/readme.txt</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="6020">
+<author>lzhou8</author>
+<date>2014-10-03T12:22:17.835655Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment2.0/src/tests/__init__.py</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment2.0/.project</path>
+<path
+   kind="dir"
+   action="A">/lzhou8/assignment2.0/src</path>
+<path
+   kind="dir"
+   action="A">/lzhou8/assignment2.0/src/tests</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment2.0/.pydevproject</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment2.0/src/control/Stats.py</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment2.0/src/control/__init__.py</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment2.0/src/control/CircleMap.py</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment2.0/src/control/Input.py</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment2.0/src/control/Stats.pyc</path>
+<path
+   kind="dir"
+   action="A">/lzhou8/assignment2.0/input</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment2.0/src/control/__init__.pyc</path>
+<path
+   kind="dir"
+   action="A">/lzhou8/assignment2.0/src/control</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment2.0/src/control/Parse.py</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment2.0/src/tests/StatisticsTest.py</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment2.0/src/control/Parse.pyc</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment2.0/input/map_data.json</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="6019">
+<author>lzhou8</author>
+<date>2014-10-03T12:20:52.179851Z</date>
+<paths>
+<path
+   kind="dir"
+   action="A">/lzhou8/assignment2.0</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="5212">
+<author>lzhou8</author>
+<date>2014-09-26T12:56:18.024334Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.2/Chess/bin/ChessGame/Game$2.class</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.2/Chess/bin/Pieces/King.class</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.2/Chess/images/black/queen.png</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.2/Chess/src/Pieces/Pawn.java</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.2/Chess/images/black/knight.png</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.2/Chess/bin/Spec2Test.class</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.2/Chess/images/black/sentry.png</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.2/Chess/src/Pieces/Spec1.java</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.2/Chess/images/black/king.png</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.2/Chess/images/white/bishop.png</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.2/Chess/bin/BishopTest.class</path>
+<path
+   kind="dir"
+   action="A">/lzhou8/assignment1.2/Chess</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.2/Chess/bin/Pieces/Queen.class</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.2/Chess/bin/ChessGame/Board.class</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.2/Chess/src/Pieces/Bishop.java</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.2/Chess/bin/KingTest.class</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.2/Chess/tests/BishopTest.java</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.2/Chess/images/white/rock.png</path>
+<path
+   kind="dir"
+   action="A">/lzhou8/assignment1.2/Chess/bin/ChessGame</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.2/Chess/bin/AllTests.class</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.2/Chess/images/black/pawn.png</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.2/Chess/tests/KingTest.java</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.2/Chess/readme.txt</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.2/Chess/bin/ChessGame/GameLoop.class</path>
+<path
+   kind="dir"
+   action="A">/lzhou8/assignment1.2/Chess/.settings</path>
+<path
+   kind="dir"
+   action="A">/lzhou8/assignment1.2/Chess/images/black</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.2/Chess/images/white/rook.png</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.2/Chess/.project</path>
+<path
+   kind="dir"
+   action="A">/lzhou8/assignment1.2/Chess/src</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.2/Chess/bin/QueenTest.class</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.2/Chess/src/Pieces/Spec2.java</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.2/Chess/src/Pieces/Queen.java</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.2/Chess/tests/RookTest.java</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.2/Chess/src/ChessGame/Board.java</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.2/Chess/tests/Spec1Test.java</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.2/Chess/bin/Pieces/Spec1.class</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.2/Chess/.classpath</path>
+<path
+   kind="dir"
+   action="A">/lzhou8/assignment1.2/Chess/tests</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.2/Chess/bin/ChessGame/FourCases.class</path>
+<path
+   kind="dir"
+   action="A">/lzhou8/assignment1.2/Chess/bin</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.2/Chess/bin/Pieces/Knight.class</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.2/Chess/bin/ChessGame/Game$1.class</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.2/Chess/bin/Pieces/Piece.class</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.2/Chess/src/Pieces/Space.java</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.2/Chess/tests/AllTests.java</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.2/Chess/.settings/org.eclipse.jdt.core.prefs</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.2/Chess/images/white/queen.png</path>
+<path
+   kind="dir"
+   action="A">/lzhou8/assignment1.2/Chess/src/ChessGame</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.2/Chess/bin/Spec1Test.class</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.2/Chess/tests/PawnTest.java</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.2/Chess/images/black/bishop.png</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.2/Chess/bin/Pieces/Pawn.class</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.2/Chess/images/white/sentry.png</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.2/Chess/images/white/knight.png</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.2/Chess/bin/Pieces/Rook.class</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.2/Chess/tests/Spec2Test.java</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.2/Chess/tests/QueenTest.java</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.2/Chess/images/white/king.png</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.2/Chess/bin/KnightTest.class</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.2/Chess/images/black/rock.png</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.2/Chess/src/Pieces/Knight.java</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.2/Chess/src/Pieces/Piece.java</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.2/Chess/tests/KnightTest.java</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.2/Chess/src/Pieces/King.java</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.2/Chess/tests/BoardTest.java</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.2/Chess/src/ChessGame/GameLoop.java</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.2/Chess/images/white/pawn.png</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.2/Chess/images/black/rook.png</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.2/Chess/src/ChessGame/Game.java</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.2/Chess/bin/Pieces/Space.class</path>
+<path
+   kind="dir"
+   action="A">/lzhou8/assignment1.2/Chess/bin/Pieces</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.2/Chess/bin/PawnTest.class</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.2/Chess/bin/ChessGame/Game.class</path>
+<path
+   kind="dir"
+   action="A">/lzhou8/assignment1.2/Chess/images/white</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.2/Chess/bin/RookTest.class</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.2/GUI TEST.pdf</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.2/Chess/src/Pieces/Rook.java</path>
+<path
+   kind="dir"
+   action="A">/lzhou8/assignment1.2</path>
+<path
+   kind="dir"
+   action="A">/lzhou8/assignment1.2/Chess/src/Pieces</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.2/Chess/src/ChessGame/FourCases.java</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.2/Chess/bin/Pieces/Spec2.class</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.2/Chess/bin/BoardTest.class</path>
+<path
+   kind="dir"
+   action="A">/lzhou8/assignment1.2/Chess/images</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.2/Chess/bin/Pieces/Bishop.class</path>
+</paths>
+<msg>done</msg>
+</logentry>
+<logentry
+   revision="4324">
+<author>lzhou8</author>
+<date>2014-09-19T12:32:46.108147Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/Chess/bin/Pieces/King.class</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/files.html</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/class_pieces_1_1_pawn.png</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/Chess/tests/AllTests.java</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/search/all_9.html</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/ftv2mlastnode.png</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/search/functions_5.js</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/search/all_5.js</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/Chess/tests/PawnTest.java</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/Chess/images/black/bishop.png</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/_piece_8java.html</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/Chess/src/Pieces/Rook.java</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/Chess/src/Pieces/Spec1.java</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/search/all_d.html</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/Chess/images/white/sentry.png</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/Chess/images/white/knight.png</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/Chess/images/black/king.png</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/class_pieces_1_1_pawn.html</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/search/classes_1.html</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/search/search.js</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/functions_func.html</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/Chess/bin/Pieces/Spec1.class</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/search/all_b.js</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/tab_b.png</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/Chess/tests/BishopTest.java</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/search/classes_3.js</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/tab_h.png</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/search/variables_1.html</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/search/search.css</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/search/files_3.js</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/doxygen.css</path>
+<path
+   kind="dir"
+   action="A">/lzhou8/assignment1.1/doxygen/search</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/search/all_6.html</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/search/functions_6.html</path>
+<path
+   kind="dir"
+   action="A">/lzhou8/assignment1.1/Chess/.settings</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/search/all_0.js</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/search/functions_0.js</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/Chess/images/white/rook.png</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/ftv2blank.png</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/nav_f.png</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/class_pieces_1_1_pawn-members.html</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/Chess/images/white/queen.png</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/nav_h.png</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/search/all_8.js</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/search/functions_8.js</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/annotated.html</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/search/all_a.html</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/ftv2mnode.png</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/dir_3a581ba30d25676e4b797b1f96d53b45.html</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/bc_s.png</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/ftv2pnode.png</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/search/files_4.html</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/ftv2lastnode.png</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/Chess/src/Pieces/Space.java</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/search/all_3.html</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/search/functions_3.html</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/search/variables_0.js</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/Chess/bin/Pieces/Space.class</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/Chess/bin/PawnTest.class</path>
+<path
+   kind="dir"
+   action="A">/lzhou8/assignment1.1/Chess/images/black</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/search/functions_3.js</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/search/all_3.js</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/search/namespaces_1.js</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/Chess/images/black/knight.png</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/Chess/images/black/sentry.png</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/dir_e289b9dd8b431c8fbdd369ca3591a394.html</path>
+<path
+   kind="dir"
+   action="A">/lzhou8/assignment1.1/Chess/src/Pieces</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/search/classes_3.html</path>
+<path
+   kind="dir"
+   action="A">/lzhou8/assignment1.1/Chess</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/search/files_1.html</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/closed.png</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/Chess/src/Pieces/Piece.java</path>
+<path
+   kind="dir"
+   action="A">/lzhou8/assignment1.1/Chess/images</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/search/classes_1.js</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/Chess/tests/KnightTest.java</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/search/all_0.html</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/search/functions_0.html</path>
+<path
+   kind="dir"
+   action="A">/lzhou8/assignment1.1/doxygen</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/_pawn_8java.html</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/Chess/tests/KingTest.java</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/search/files_1.js</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/class_pieces_1_1_bishop.html</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/Chess/images/white/pawn.png</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/Chess/images/black/rook.png</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/search/all_8.html</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/search/functions_8.html</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/_queen_8java.html</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/search/search_m.png</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/class_pieces_1_1_space.html</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/search/all_6.js</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/search/functions_6.js</path>
+<path
+   kind="dir"
+   action="A">/lzhou8/assignment1.1/Chess/src</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/dir_683cebcabe00729372b961fea82fbcce.html</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/_bishop_8java.html</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/Chess/bin/QueenTest.class</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/search/all_c.html</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/_king_8java.html</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/class_pieces_1_1_bishop.png</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/search/classes_0.html</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/class_pieces_1_1_piece.png</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/_space_8java.html</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/Chess/tests/QueenTest.java</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/class_pieces_1_1_king.png</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/class_pieces_1_1_rook.html</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/jquery.js</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/search/all_c.js</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/Chess/src/Pieces/Bishop.java</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/class_pieces_1_1_bishop-members.html</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/Chess/src/Pieces/King.java</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/search/variables_0.html</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/search/classes_4.js</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/Chess/tests/BoardTest.java</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/class_pieces_1_1_space-members.html</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/Chess/readme.txt</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/search/all_5.html</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/search/functions_5.html</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/class_pieces_1_1_piece.html</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/_rook_8java.html</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/search/files_4.js</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/search/namespaces_1.html</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/search/all_1.js</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/search/functions_1.js</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/index.html</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/Chess/bin/ChessGame/Game.class</path>
+<path
+   kind="dir"
+   action="A">/lzhou8/assignment1.1/Chess/images/white</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/bdwn.png</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/manualTest.txt</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/ftv2plastnode.png</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/Chess/bin/Spec1Test.class</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/search/all_9.js</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/hierarchy.html</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/class_pieces_1_1_rook-members.html</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/Chess/.classpath</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/search/classes_5.html</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/tab_a.png</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/Chess/bin/ChessGame/Board.class</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/search/files_3.html</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/class_pieces_1_1_piece-members.html</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/search/close.png</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/Chess/images/white/rock.png</path>
+<path
+   kind="dir"
+   action="A">/lzhou8/assignment1.1/Chess/bin/ChessGame</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/search/mag_sel.png</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/Chess/images/black/pawn.png</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/Chess/bin/Pieces/Piece.class</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/search/all_2.html</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/search/functions_2.html</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/dir_1d1769fb7d87404ad732cd84f11cd3ce.html</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/class_pieces_1_1_knight.html</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/functions_vars.html</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/Chess/src/ChessGame/Game.java</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/search/variables_1.js</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/functions.html</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/dir_12d977d66123c06db9e3ea0c0086ae4f.html</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/search/all_4.js</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/search/functions_4.js</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/tab_s.png</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/Chess/src/Pieces/Pawn.java</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/nav_g.png</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/_knight_8java.html</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/Chess/src/Pieces/Spec2.java</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/class_pieces_1_1_knight.png</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/Chess/src/Pieces/Queen.java</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/open.png</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/search/classes_2.html</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/Chess/bin/BishopTest.class</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/search/all_a.js</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/search/files_0.html</path>
+<path
+   kind="dir"
+   action="A">/lzhou8/assignment1.1/Chess/tests</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/Chess/bin/BoardTest.class</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/Chess/src/Pieces/Knight.java</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/sync_on.png</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/class_pieces_1_1_knight-members.html</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/search/classes_2.js</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/doxygen.png</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/classes.html</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/Chess/bin/Pieces/Bishop.class</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/search/files_2.js</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/search/all_7.html</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/search/functions_7.html</path>
+<path
+   kind="dir"
+   action="A">/lzhou8/assignment1.1/Chess/bin/Pieces</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/class_pieces_1_1_rook.png</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/Chess/.project</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/class_pieces_1_1_queen.png</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/namespace_chess_game.html</path>
+<path
+   kind="dir"
+   action="A">/lzhou8/assignment1.1/Chess/src/ChessGame</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/Chess/bin/RookTest.class</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/search/all_7.js</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/search/functions_7.js</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/Chess/bin/Spec2Test.class</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/tabs.css</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/Chess/bin/Pieces/Pawn.class</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/search/all_b.html</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/ftv2folderopen.png</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/namespaces.html</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/Chess/images/white/bishop.png</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/Chess/src/ChessGame/Board.java</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/Chess/tests/Spec1Test.java</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/Chess/bin/Pieces/Rook.class</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/namespace_pieces.html</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/Chess/bin/Pieces/Spec2.class</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/Chess/images/white/king.png</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/sync_off.png</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/Chess/images/black/rock.png</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/search/all_d.js</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/class_pieces_1_1_queen.html</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/class_chess_game_1_1_board.html</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/search/files_5.html</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/search/classes_5.js</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/search/all_4.html</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/search/functions_4.html</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/ftv2splitbar.png</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/Chess/.settings/org.eclipse.jdt.core.prefs</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/search/files_5.js</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/search/namespaces_0.html</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/dir_0a22bba819649034905d8691a7420dc3.html</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/class_pieces_1_1_king.html</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/search/search_l.png</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/Chess/images/black/queen.png</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/search/all_2.js</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/search/functions_2.js</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/ftv2node.png</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/ftv2vertline.png</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/dynsections.js</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/search/namespaces_0.js</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/search/search_r.png</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/ftv2link.png</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/_board_8java.html</path>
+<path
+   kind="dir"
+   action="A">/lzhou8/assignment1.1</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/Chess/tests/RookTest.java</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/class_pieces_1_1_queen-members.html</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/class_chess_game_1_1_board-members.html</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/Chess/tests/Spec2Test.java</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/Chess/bin/KnightTest.class</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/search/classes_4.html</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/Chess/bin/Pieces/Queen.class</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/search/nomatches.html</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/ftv2folderclosed.png</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/ftv2doc.png</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/dir_653dbea2a467ffc30a9e1339293e4d97.html</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/search/files_2.html</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/Chess/bin/KingTest.class</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/search/classes_0.js</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/Chess/bin/AllTests.class</path>
+<path
+   kind="dir"
+   action="A">/lzhou8/assignment1.1/Chess/bin</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/class_pieces_1_1_king-members.html</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/Chess/bin/Pieces/Knight.class</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/search/all_1.html</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/search/functions_1.html</path>
+<path
+   kind="file"
+   action="A">/lzhou8/assignment1.1/doxygen/search/files_0.js</path>
+</paths>
+<msg>done</msg>
+</logentry>
+<logentry
+   revision="2874">
+<author>lzhou8</author>
+<date>2014-09-12T12:46:44.926215Z</date>
+<paths>
+<path
+   kind="dir"
+   action="A">/lzhou8/Chess/tests</path>
+<path
+   kind="file"
+   action="A">/lzhou8/Chess/src/Pieces/Knight.java</path>
+<path
+   kind="file"
+   action="A">/lzhou8/Chess/src/Pieces/Bishop.java</path>
+<path
+   kind="file"
+   action="A">/lzhou8/Chess/bin/BoardTest.class</path>
+<path
+   kind="file"
+   action="A">/lzhou8/Chess/bin/KingTest.class</path>
+<path
+   kind="file"
+   action="A">/lzhou8/Chess/src/Pieces/King.java</path>
+<path
+   kind="file"
+   action="A">/lzhou8/Chess/bin/AllTests.class</path>
+<path
+   kind="dir"
+   action="A">/lzhou8/Chess/bin</path>
+<path
+   kind="file"
+   action="A">/lzhou8/Chess/bin/Pieces/Bishop.class</path>
+<path
+   kind="file"
+   action="A">/lzhou8/Chess/bin/Pieces/Knight.class</path>
+<path
+   kind="file"
+   action="A">/lzhou8/Chess/tests/BoardTest.java</path>
+<path
+   kind="file"
+   action="A">/lzhou8/Chess/src/Pieces/Space.java</path>
+<path
+   kind="file"
+   action="A">/lzhou8/Chess/readme.txt</path>
+<path
+   kind="file"
+   action="A">/lzhou8/Chess/bin/Pieces/King.class</path>
+<path
+   kind="file"
+   action="A">/lzhou8/Chess/tests/AllTests.java</path>
+<path
+   kind="file"
+   action="A">/lzhou8/Chess/bin/Pieces/Space.class</path>
+<path
+   kind="dir"
+   action="A">/lzhou8/Chess/bin/Pieces</path>
+<path
+   kind="file"
+   action="A">/lzhou8/Chess/bin/PawnTest.class</path>
+<path
+   kind="file"
+   action="A">/lzhou8/Chess/.project</path>
+<path
+   kind="dir"
+   action="A">/lzhou8/Chess/src/ChessGame</path>
+<path
+   kind="file"
+   action="A">/lzhou8/Chess/bin/RookTest.class</path>
+<path
+   kind="file"
+   action="A">/lzhou8/Chess/tests/PawnTest.java</path>
+<path
+   kind="file"
+   action="A">/lzhou8/Chess/src/Pieces/Rook.java</path>
+<path
+   kind="file"
+   action="A">/lzhou8/Chess/bin/Pieces/Pawn.class</path>
+<path
+   kind="file"
+   action="A">/lzhou8/Chess/src/ChessGame/Board.java</path>
+<path
+   kind="file"
+   action="A">/lzhou8/Chess/bin/Pieces/Rook.class</path>
+<path
+   kind="dir"
+   action="A">/lzhou8/Chess/src/Pieces</path>
+<path
+   kind="dir"
+   action="A">/lzhou8/Chess</path>
+<path
+   kind="file"
+   action="A">/lzhou8/Chess/.classpath</path>
+<path
+   kind="file"
+   action="A">/lzhou8/Chess/bin/ChessGame/Board.class</path>
+<path
+   kind="file"
+   action="A">/lzhou8/Chess/src/Pieces/Piece.java</path>
+<path
+   kind="file"
+   action="A">/lzhou8/Chess/tests/KnightTest.java</path>
+<path
+   kind="file"
+   action="A">/lzhou8/Chess/tests/BishopTest.java</path>
+<path
+   kind="dir"
+   action="A">/lzhou8/Chess/bin/ChessGame</path>
+<path
+   kind="file"
+   action="A">/lzhou8/Chess/bin/Pieces/Piece.class</path>
+<path
+   kind="file"
+   action="A">/lzhou8/Chess/tests/KingTest.java</path>
+<path
+   kind="file"
+   action="A">/lzhou8/Chess/.settings/org.eclipse.jdt.core.prefs</path>
+<path
+   kind="dir"
+   action="A">/lzhou8/Chess/.settings</path>
+<path
+   kind="file"
+   action="A">/lzhou8/Chess/src/Pieces/Pawn.java</path>
+<path
+   kind="dir"
+   action="A">/lzhou8/Chess/src</path>
+<path
+   kind="file"
+   action="A">/lzhou8/Chess/bin/QueenTest.class</path>
+<path
+   kind="file"
+   action="A">/lzhou8/Chess/src/Pieces/Queen.java</path>
+<path
+   kind="file"
+   action="A">/lzhou8/Chess/tests/RookTest.java</path>
+<path
+   kind="file"
+   action="A">/lzhou8/Chess/tests/QueenTest.java</path>
+<path
+   kind="file"
+   action="A">/lzhou8/Chess/bin/BishopTest.class</path>
+<path
+   kind="file"
+   action="A">/lzhou8/Chess/bin/KnightTest.class</path>
+<path
+   kind="file"
+   action="A">/lzhou8/Chess/bin/Pieces/Queen.class</path>
+</paths>
+<msg>done</msg>
+</logentry>
+<logentry
+   revision="1692">
+<author>lzhou8</author>
+<date>2014-09-05T04:15:09.618931Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/lzhou8/teapot.cpp</path>
+</paths>
+<msg>assignnment0</msg>
+</logentry>
+<logentry
+   revision="93">
+<author>root</author>
+<date>2014-09-02T17:45:28.578502Z</date>
+<paths>
+<path
+   kind="dir"
+   action="A">/lzhou8</path>
+</paths>
+<msg>created directory lzhou8</msg>
+</logentry>
+</log>

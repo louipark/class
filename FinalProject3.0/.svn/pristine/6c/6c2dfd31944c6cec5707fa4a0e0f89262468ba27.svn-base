@@ -1,0 +1,41 @@
+<html>
+<head>
+    <title>Zabuto | Calendar | Basic Usage</title>
+    <meta name="robots" content="noindex, nofollow">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <!-- jQuery CDN -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+    <!-- Bootstrap CDN -->
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.2/js/bootstrap.min.js"></script>
+
+
+    <!-- Zabuto Calendar -->
+    <script src="../zabuto_calendar.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="../zabuto_calendar.min.css">
+
+</head>
+<body>
+
+<!-- container -->
+
+    <div class="row">
+
+            <div id="my-calendar">
+
+            <script type="application/javascript">
+                $(document).ready(function () {
+                    $("#my-calendar").zabuto_calendar();
+                });
+            </script>
+			</div>
+
+
+    </div>
+
+
+<!-- /container -->
+
+</body>
+</html>
